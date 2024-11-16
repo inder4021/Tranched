@@ -376,6 +376,12 @@ section.token {
     box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
     padding: 30px;
     border-radius: 20px;
+    transition: all .3s linear;
+}
+
+.token_items:hover {
+    transform: scale(1.1);
+    transform-box: fill-box;
 }
 
 section.token .token_inner_sec span {
