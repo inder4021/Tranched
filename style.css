@@ -373,6 +373,9 @@ section.token {
     flex-direction: column;
     gap: 18px;
     align-items: flex-start;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+    padding: 30px;
+    border-radius: 20px;
 }
 
 section.token .token_inner_sec span {
